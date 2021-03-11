@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Recepten dropper</title>
+</head>
+
+<body>
+
+    <h1>Recepten dropper</h1>
+
+    <form name="recepy" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Telefoon: <input type="tel" name="phone" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum.: <input type="date" name="birthday" /></label>
+        </p>
+        <p>Geslacht: <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Man</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Vrouw</label><br>
+            <input type="radio" id="apache" name="gender" value="apache">
+            <label for="apache">Apache Helicopter</label>
+        </p>
+        <p>Favoriete suisine: <br>
+            <input type="checkbox" id="french" name="french" value="French">
+            <label for="french">Frans</label><br>
+            <input type="checkbox" id="italian" name="italian" value="Italian">
+            <label for="italian">Italiaans</label><br>
+            <input type="checkbox" id="spanish" name="spanish" value="Spanish">
+            <label for="spanish">Spaans</label><br>
+            <input type="checkbox" id="arab" name="arab" value="Arab" disabled>
+            <label for="vehicle3">Arabisch</label>
+        </p>
+        <p>
+            <label for="favcolor">Lievelingskleur:</label>
+            <input type="color" id="favcolor" name="favcolor">
+        </p>
+        <p>
+            <label>Biografie: <textarea name="biography"></textarea></label>
+        </p>
+        <p>
+            <label for="myfile">Upload je laatste recept:</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p>
+            URL
+            <label for="homepage">Recpten website:</label>
+            <input type="url" id="homepage" name="homepage">
+        </p>
+        <p>
+            <button type="reset">Opnieuw</button>
+            <button type="submit">Verzenden</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
